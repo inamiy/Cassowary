@@ -1,0 +1,33 @@
+disabled_rules:
+  - line_length
+  - function_body_length
+  - type_body_length
+  - file_length
+  - function_parameter_count
+  - cyclomatic_complexity
+
+  - force_cast
+
+  - opening_brace         # prefer Allman-Style
+  - closing_brace         # allow `}\n)`
+  - statement_position    # allow `if {}\nelse {}`
+  - type_name             # allow "_" prefix name
+  - variable_name         # allow "_" prefix name
+  - todo
+  - valid_docs
+  - void_return
+  - for_where
+  - trailing_comma
+
+opt_in_rules:
+  - empty_count
+
+included:
+ - Sources
+ - Tests
+
+excluded:
+  - Packages
+  - Sources/CassowaryUIDemo
+
+reporter: "xcode"
