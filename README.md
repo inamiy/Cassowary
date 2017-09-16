@@ -32,7 +32,7 @@ try! solver.addConstraints(view1, view2) { v1, v2 in
         v2.centerX == v1.centerX,
 
         // equal spacing (vertical)
-        v1.top == 145 ~ .high,
+        v1.top == 40 ~ .high,
         v2.top - v1.bottom == v1.top ~ .high,
         rootSize.height - v2.bottom == v1.top ~ .high,
     ]
