@@ -55,6 +55,10 @@ This will result:
 - [pybee/cassowary](https://github.com/pybee/cassowary) (Python version)
 - [robb/Cartography](https://github.com/robb/Cartography) (Auto Layout DSL in Swift)
 
+## References
+
+- [AutoLayout Algorithm // Speaker Deck](https://speakerdeck.com/inamiy/autolayout-algorithm) (in Japanese)
+
 ## License
 
 [MIT](LICENSE)
